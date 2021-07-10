@@ -1,0 +1,29 @@
+h2{
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 2em repeat(5,1fr);
+    height: 500px;
+    grid-gap: 1em;
+}
+.date,.day{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+
+    font-size: 3em;
+    border-radius: 5px;
+}
+.other-month{
+    background-color: lightpink;
+}
+
+.day{
+    font-size: 2em;
+    background-color: lightcoral;
+}
